@@ -340,3 +340,192 @@ The expected result is to view the photo with a cup of coffee when you try the q
 The actual result is the photo is not working when you try the quantity input.
 
 ![Screenshot_4 (1)](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/0f378822-e888-40b8-b5ea-31e5f4946e45)
+
+**********************************************************
+
+## **Error in the color category**
+
+**Priority and Severity**
+P2, High
+
+**Description**
+
+In the color category, there are five colors available and in the presentation pictures, there are six colors.
+
+**Steps to reproduce:**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&product_id=118
+2.	View the photos and then view the colors.
+
+**Expected result**
+
+The expected result is to see all colors available like in photos.
+
+**Actual result**
+
+In the actual result, we can't see the sixth color and this can cause confusion for customers.
+
+![Screenshot_14](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/d0745d36-cee6-4e77-b86c-928a73a910f5)
+
+***************************************************
+
+**The icon for zoom photo does not function**
+
+**Priority and Severity**
+P2, High
+
+**Description**
+
+When you want to zoom in on a photo of a product does not function.
+	
+**Steps to reproduce**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&path=49_50&product_id=102
+2.	Click on the icon for zoom in
+
+**Expected result**
+
+The expected result is then when you click on zoom in and the photo will be fullscreen.
+
+**Actual result**
+
+In actual result when you click on the icon nothing happens.
+
+![Screenshot_2](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/f4d70fa2-cda7-4f3c-bb77-c6b29b42aaab)
+
+***************************************
+
+**Lack of photos presentation for the category of crème**
+
+**Priority and Severity**
+P5, High
+
+**Description**
+
+When you want to buy a cream you can select from a big category but you can't see how look the creme.
+
+**Steps to reproduce**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&path=36&product_id=56
+2.	Click on the category and see the cream
+3.	See lack of the photos
+
+**Expected result**
+
+The expected result is to see what you buy and for that correctly to have presentation photos.
+
+**Actual result**
+
+In actual result, you can buy what you want in the category but you don't know what you buy.
+
+![Screenshot_3](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/b036f30c-4ea4-44a8-b628-002709782b6b)
+
+************************************************************************
+
+**Quantity was set to maximum for some products**
+
+**Priority and Severity**
+P6, High
+
+**Descriptions**
+
+Quantity was set to maximum for some products and for else products you can cross the limits.
+
+**Steps to reproduce**
+
+1.	Go to https://automationteststore.com/
+2.	Add to the cart any products
+3.	Go to the cart and modify the quantity and then press upgrade
+
+**Expected result**
+
+The expected result is to see the quantity limits for all the products.
+
+**Actual result**
+
+In actual result, you can't see the limits for every product.
+
+![Screenshot_8](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/25f86b7b-b428-4e4a-b8b5-4c70bbf229af)
+
+![Screenshot_9](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/0fc35a89-b67d-4140-b5ea-2066412ae52a)
+
+*****************************************
+
+**Added a wrong button for one product**
+
+**Priority and Severity**
+P6,High
+
+**Description**
+
+On a product page don't exist " Add to cart" button but exist the " Call to order" button.
+
+**Steps to reproduce**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&path=36_39&product_id=54
+2.	See the wrong button
+3.	When you press the button you will see another page with a number of the site
+
+**Expected result**
+
+The expected result is to see the " Add to cart" to can buy the mascara not to call for an order.
+
+**Actual result**
+
+In actual result, you can order this product just if you call.
+
+![Screenshot_10](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/6ffb6c0d-32e8-4521-8f8e-53661825c6ef)
+
+**********************************
+
+**Error in the color category**
+
+**Priority and Severity**
+P2,Normal
+
+**Description**
+
+In the color category, there are three colors available and in the presentation pictures, there are four colors.
+
+**Steps to reproduce:**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&path=36_42&product_id=60#review
+2.	 View the photos and then view the colors.
+
+
+**Expected result**
+
+The expected result is to see all colors is available like in photos.
+
+**Actual result**
+
+In the actual result, we can't see the fourth color and this can cause confusion for customers.
+
+![Screenshot_13](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/90a404c8-a334-49c5-81a1-bddd72b20b36)
+
+****************************************
+
+**Big error for one color from color input**
+
+**Priority and Severity**
+P6, High
+
+**Description**
+
+When you select one of the colors in that selected color, you will see an addition of money in the title, and the total amount before you order it will no longer be the one presented, but that addition of money in the title will be added to it.
+
+**Steps to reproduce**
+
+1.	Go to https://automationteststore.com/index.php?rt=product/product&path=36_42&product_id=60#review
+2.	Select Nocturnelle from the color input
+3.	See the total amount plus the addition of money
+
+**Expected result**
+
+The expected result is to not see addition to money when you select that color.
+
+**Actual result**
+
+In the actual result, in total amount, you will see the addition of money.
+
+![Screenshot_15](https://github.com/RafayBeatrice/Bug-Report/assets/137804590/b8dbdce0-03e2-4421-bffc-ffa0263feb4e)
